@@ -3,20 +3,21 @@
 //stampa un messaggio appropriato sull’esito del controllo//
 
 //1. crea lista email
-var listaEmails = ["margherit.testi@gmail.com", "ciao@ciao.it", "pincopallino@ciao.it"]
+var listaEmails = ["margherita.testi@gmail.com", "pinco@ciao.it", "pallino@ciao.it"]
 //2. chiedi l email all utente//
 var emailUtente = prompt("Inserisci la tua email");
 var emailUtente = "blue@colore.com";
 var trovato = false;
+
 //verifica se la email e nella lista//
-for (i=0 ; i < email.lenght ; i++) {
+for (i=0 ; i < emailUtente.lenght ; i++) {
   if (listaEmails[i] == emailUtente) {
     trovato = true;
   }
 }
 
-if (trovato) {
+if (trovato){
   console.log("L'email è stata trovata");
-} else if{
+}else if{
   console.log("L'email NON è stata trovata");
 }
